@@ -36,13 +36,12 @@ function AdminPage() {
             </ul>
           </div>
 
-          {/* Logout Button */}
           <button onClick={handleLogout} className="btn btn-danger w-100 mt-3">
             🚪 Logout
           </button>
         </div>
 
-        {/* Main Content */}
+        {/* Main*/}
         <div
           className="flex-grow-1 p-3 d-flex justify-content-center align-items-start"
           style={{ overflowY: "auto", backgroundColor: "#f5f5f5" }}
@@ -54,6 +53,8 @@ function AdminPage() {
               backgroundColor: "white",
               minHeight: "100%",
               borderRadius: "12px",
+              overflowX: "auto", 
+              overflowY: "auto", 
             }}
 
             >

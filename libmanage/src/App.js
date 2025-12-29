@@ -31,7 +31,7 @@ function App() {
           </ProtectedRoute>
         } >
 
-           <Route index element={<AdminWelcome />} />
+          <Route index element={<AdminWelcome />} />
           <Route path="add-book" element={<AddBook />} />
           <Route path="display-books" element={<ViewBooks />} />
           <Route path="search-books" element={<SearchBooks />} />

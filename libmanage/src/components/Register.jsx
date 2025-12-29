@@ -68,7 +68,7 @@ function Register() {
         </div>
       </div>
 
-            {/* 🔙 Back to Home Button */}
+      {/* 🔙 Back to Home Button */}
       <div className="mt-3">
         <Link
           to="/"

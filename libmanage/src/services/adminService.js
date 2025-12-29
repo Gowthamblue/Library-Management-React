@@ -1,5 +1,4 @@
 import API from "./apiConfig";
-
 export async function getAllBooks() {
   const res = await API.get("/admin/books");
   return res.data;
